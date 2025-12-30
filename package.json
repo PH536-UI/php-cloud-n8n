@@ -1,0 +1,13 @@
+{
+  "name": "php-cloud-n8n",
+  "version": "1.0.0",
+  "description": "PhP Cloud integrado à instância n8n",
+  "main": "index.js",
+  "scripts": {
+    "health": "node scripts/healthcheck.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
