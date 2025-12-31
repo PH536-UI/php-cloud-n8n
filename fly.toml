@@ -19,7 +19,7 @@ primary_region = 'gru'
   cpus = 1
   memory_mb = 1024
 [env]
-  N8N_URL = "http://localhost:5678"
+  N8N_URL = "https://phcavalheiro.app.n8n.cloud/mcp-server/http,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1MmQxOGQwZC0wMGFhLTQwYWUtYjcwNC1jZTQzNjI2YWY5YWMiLCJpc3MiOiJuOG4iLCJhdWQiOiJtY3Atc2VydmVyLWFwaSIsImp0aSI6IjZjNmUzMjNjLTA5NDItNDg4YS1iNWJjLTViYTJjYjM3YjQxNSIsImlhdCI6MTc2NzIxMTM5M30.dnP2nCBeARaLYvgf6vi23I8-JOdZYDfWz1VvObkajH4"
   N8N_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NjRiYWZjOS01ZTFiLTRlMTgtOGNmMy03NmZhMmFlM2ZmYmQiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzY3MTIwMjY1LCJleHAiOjE3Njk2NjI4MDB9.CjmDdQCmObXgPv-o4G_sUZVtA3N9qVEo4_byCQpo5XQ"
   OPENAI_API_KEY = "sk-sua-chave-openai"
 
