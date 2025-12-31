@@ -9,8 +9,8 @@ async function tryEndpoints(headers) {
       const resp = await axios.get(url, { headers });
       return { url, data: resp.data };
     } catch (e) {
-      // continue
->    }
+      // continue to next
+    }
   }
   throw new Error('no endpoints responded');
 }
@@ -26,7 +26,7 @@ async function tryEndpoints(headers) {
     const out = sliced.map((w) => ({ id: w.id, name: w.name }));
     console.log('source:', result.url);
     console.log('count:', out.length);
-    console.log(out);
+    console.log(JSON.stringify(out, null, 2));
   } catch (e) {
     console.error('error:', e.response?.data || e.message);
     process.exitCode = 1;
